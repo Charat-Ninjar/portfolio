@@ -24,7 +24,7 @@ const ProjectData = ({ children }) => {
         project: "/findinghat.png",
         description:
           "This mini-game project utilizes the fundamentals of JavaScript.",
-          url: "https://colmar-assignment.vercel.app/"
+          url: "https://replit.com/@CharatPrakobkit/09Ninjar-find-your-hat"
       },
     ])
   return (
