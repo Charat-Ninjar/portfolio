@@ -21,7 +21,7 @@ const ContactIcon = () => {
       href="mailto:charatvc@gmail.com"
       target="_blank"
       rel="mail">
-        <div className="flex bg-white h-[38px] w-[38px] items-center justify-center rounded-full">
+        <div className="flex bg-white h-[38px] w-[38px] items-center justify-center rounded-full icon">
         <svg
           version="1.0"
           xmlns="http://www.w3.org/2000/svg"
