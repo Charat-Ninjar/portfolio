@@ -3,9 +3,15 @@ import React from "react";
 const ContactInfo = () => {
     return(
         <div id="contact" className="mt-96 scroll-container flex-col align-middle">
-        <div>Contact Me</div>
-        <div>Email: Charatvc@gmail.com</div>
-        <div>Linkedin: www.linkedin.com/in/charat-p</div>
+            <div id="projects" className="flex text-4xl text-white h-[100px]  font-semibold border-b-4 mt-40 items-center mx-10 ">
+          <div className="text-glow hover:text-glow px-2">Contact</div>
+        </div>
+        <div className="ml-10 mt-10 pb-10">
+        <div className="text-white text-1xl ">Email: Charatvc@gmail.com</div>
+        <div className="text-white text-1xl">Linkedin: www.linkedin.com/in/charat-p</div>
+        <div className="text-white text-1xl">Github: github.com/Charat-Ninjar</div>
+        </div>
+        
         </div>
     )
 }

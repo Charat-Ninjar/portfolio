@@ -8,7 +8,7 @@ const WelcomeMessage = () => {
       </div>
       
       <div className="flex text-4xl text-white h-[68px]  font-semibold text-glow hover:text-glow  mt-6">
-        my name is Gunther
+        my name is Ninjar
       </div>
       <div className="text-white text-xl">
         I'm Software Developer Learner At Generation Thailand.
