@@ -21,7 +21,7 @@ const Me = () => {
         >
           <div className="rounded-lg w-96 h-96 relative">
             <img
-              src="src/assets/gunther.jpg"
+              src="public/gunther.jpg"
               className={`rounded-lg  w-96 h-96 absolute bottom-10 right-10 z-0 ${
                 isHovered ? "profile" : ""
               }`}

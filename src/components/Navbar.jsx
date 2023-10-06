@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="flex w-full text-cyan-50">
       <div className="flex w-full justify-between h-[68px] items-center fixed z-10 navbar">
         <div className="flex text-2xl h-[68px] justify-start items-center font-semibold text-glow hover:text-glow pl-20">
-          Ninjar
+          NINJAR
         </div>
         <div>
           <a href="#profile">
