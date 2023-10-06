@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import WelcomeMessage from "../components/WelcomeMessage";
 import Layout from "../Layout";
-
+import Download from "../components/downloadCV";
 const Me = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
     <Layout>
       <div id="profile" className="flex items-center justify-between p-20 m-auto rounded-lg nav-item-container w-full gap-3 scroll-container">
-        <div className="w-6/12 mt-9">
-          <WelcomeMessage />
+        <div className="w-6/12 mt-32">
+          <div><WelcomeMessage/></div>
+          <div className="pt-20"><Download/></div>
+          
+          
         </div>
         <div
           className="w-6/12 h-6/12 mt-40 ml-40"
