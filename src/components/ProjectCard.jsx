@@ -18,7 +18,7 @@ const ProjectCard = () => {
           <p>{project.description}</p>
           <div className="card-actions justify-end">
            
-            <button className="btn btn-primary">Visit</button>
+            <button className="btn bg-yellow-400 hover:bg-yellow-200">Visit</button>
 
           </div>
         </div>

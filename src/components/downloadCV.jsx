@@ -7,8 +7,8 @@ const Download = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div class="border-2 border-white-500 rounded-lg p-4 text-center text-white-500 shadow-lg icon">
-        <span class="text-xl font-semibold text-white">Download my CV here</span>
+      <div class="border-2 border-yellow-500 rounded-lg p-4 text-center  shadow-lg icon hover:text-amber-200">
+        <span class="text-xl font-semibold text-yellow-500 hover:text-amber-200">Download my CV here</span>
       </div>
     </a>
   );
