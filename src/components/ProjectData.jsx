@@ -17,12 +17,14 @@ const ProjectData = ({ children }) => {
         name: "Colmar Academy",
         project: "/colmar.png",
         description: "The static web page uses the fundamentals of HTML and CSS.",
+        url: "https://colmar-assignment.vercel.app/"
       },
       {
         name: "finding hat",
         project: "/findinghat.png",
         description:
           "This mini-game project utilizes the fundamentals of JavaScript.",
+          url: "https://colmar-assignment.vercel.app/"
       },
     ])
   return (

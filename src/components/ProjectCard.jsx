@@ -17,7 +17,9 @@ const ProjectCard = () => {
           <h2 className="card-title text-white">{project.name}</h2>
           <p>{project.description}</p>
           <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
+           
+            <button className="btn btn-primary">Visit</button>
+
           </div>
         </div>
       </div>

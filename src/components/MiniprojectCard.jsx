@@ -21,7 +21,12 @@ const MiniProjectCard = () => {
             <h2 className="card-title text-white">{project.name}</h2>
             <p>{project.description}</p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+              <a 
+              href={project.url}
+              target="_blank"
+              rel="..">
+              <button className="btn btn-primary">Visit</button>
+              </a>
             </div>
           </div>
         </div>
