@@ -1,6 +1,6 @@
 import React from "react";
 import ContactIcon from "./ContactIcon";
-
+import Navitem from "./Navitem";
 const Navbar = () => {
   return (
     <div className="flex w-full text-cyan-50">
@@ -8,23 +8,7 @@ const Navbar = () => {
         <div className="flex text-2xl h-[68px] justify-start items-center font-semibold text-glow hover:text-glow pl-20">
           NINJAR
         </div>
-        <div>
-          <a href="#profile">
-            <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow w-64">
-              PROFILE
-            </div>
-          </a>
-          <a href="#projects">
-            <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow w-64 ">
-              PROJECTS
-            </div>
-          </a>
-          <a href="#contact">
-            <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow w-64 ">
-              CONTACT ME
-            </div>
-          </a>
-        </div>
+        <Navitem/>
         <ContactIcon/>
       </div>
     </div>
@@ -32,21 +16,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-{
-  /* <Link to={"/"}>
-          <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow  w-64">
-            PROFILE
-          </div>
-        </Link>
-        <Link to={"/Project"}> 
-          <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow w-64 ">
-            PROJECTS
-          </div>
-        </Link>
-        <Link to={"/Contact"}>
-          <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow w-64 ">
-            CONTACT ME
-          </div>
-        </Link> */
-}

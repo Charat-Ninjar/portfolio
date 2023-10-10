@@ -6,7 +6,7 @@ const ProjectCard = () => {
   return (
     <div className="flex gap-10 mt-12 px-12">
     {projectList.map((project, index) => (
-      <div key={index} className="card w-96 bg-base-100 shadow-xl image-full z-0">
+      <div key={index} className="card w-96 bg-base-100 shadow-xl image-full z-0 hover:scale-110">
         <figure>
           <img
             src={project.project} // Assuming you have an 'image' property in your project object
