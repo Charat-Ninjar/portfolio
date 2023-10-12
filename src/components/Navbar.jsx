@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className="flex text-2xl h-[68px] justify-start items-center font-semibold text-glow hover:text-glow pl-20">
           NINJAR
         </div>
-        <div>
+        <div className="flex">
           <a href="#profile">
             <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow w-64">
               PROFILE
