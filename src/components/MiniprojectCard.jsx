@@ -9,7 +9,7 @@ const MiniProjectCard = () => {
       {miniProjectList.map((project, index) => (
         <div
           key={index}
-          className="card w-96 bg-base-100 shadow-xl image-full z-0"
+          className="card w-96 bg-base-100 shadow-xl image-full z-0 hover:scale-110"
         >
           <figure>
             <img
