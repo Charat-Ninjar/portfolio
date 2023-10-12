@@ -5,27 +5,15 @@ const Navbar = () => {
   return (
     <div className="flex w-full text-cyan-50">
       <div className="flex w-full justify-between h-[68px] items-center fixed z-10 navbar">
-        <div className="flex text-2xl h-[68px] justify-start items-center font-semibold text-glow hover:text-glow pl-20">
+        <div className="flex text-2xl h-[68px] justify-start items-center font-semibold text-glow hover:text-glow pl-12">
           NINJAR
         </div>
-        <div>
-          <a href="#profile">
-            <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow w-64">
-              PROFILE
-            </div>
-          </a>
-          <a href="#projects">
-            <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow w-64 ">
-              PROJECTS
-            </div>
-          </a>
-          <a href="#contact">
-            <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow w-64 ">
-              CONTACT ME
-            </div>
-          </a>
+        <div className="">
+          <Navitem />
         </div>
-        <ContactIcon/>
+        <div>
+          <ContactIcon />
+        </div>
       </div>
     </div>
   );

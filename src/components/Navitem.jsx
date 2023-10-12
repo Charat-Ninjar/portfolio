@@ -2,7 +2,7 @@ import React from "react";
 
 const Navitem = () => {
     return(
-        <div>
+        <div className="flex justify-center">
           <a href="#profile">
             <div className="flex text-2xl h-[68px] justify-center items-center font-semibold text-glow hover:text-glow w-64 hover:scale-105">
               PROFILE
