@@ -6,7 +6,7 @@ const ContactInfo = () => {
     <div id="contact" className=" pt-4 scroll-container flex-col align-middle">
       <div
         id="projects"
-        className="flex text-4xl text-white h-fit font-semibold border-b-4 mt-40 items-center mx-10 "
+        className="flex text-4xl pb-3 text-white h-fit font-semibold border-b-4 mt-40 items-center mx-2"
       >
         <div className="text-glow hover:text-glow ">Contact</div>
       </div>
