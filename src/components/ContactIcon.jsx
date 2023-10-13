@@ -1,9 +1,8 @@
 import React from "react";
 import { GrLinkedinOption } from "react-icons/gr";
-import { AiFillGithub } from "react-icons/ai";
 const ContactIcon = () => {
   return (
-    <div className="flex gap-10 pr-10">
+    <div className="hidden lg:flex gap-10">
       <a href="https://github.com/Charat-Ninjar" target="_blank" rel="..">
         <div className="flex items-center hover:text-glow rounded-full h-10 w-10 icon hover:scale-110">
           <div className="h-full">

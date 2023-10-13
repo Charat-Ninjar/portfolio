@@ -4,19 +4,27 @@ import Layout from "../Layout";
 import Download from "../components/downloadCV";
 import ProfileImg from "../components/ProfileImg";
 const Me = () => {
-
-
   return (
-      <div id="profile" className="flex :flex-col items-center justify-center align-middle rounded-lg nav-item-container gap-3 scroll-container">
-        <div className="flex flex-col lg:flex mt-32 justify-center items-center ">
-          <div className="mt-10 flex items-center"><WelcomeMessage/></div>
-          <div className="pt-20 w-96"><Download/></div>
+    <div
+      className="flex pl-12 mt-10 w-full items-center justify-center rounded-lg  gap-3 scroll-container"
+    >
+      <div className="mb-20 flex-col lg:flex  lg:mt-40">
+        <div className="flex items-center">
+          <WelcomeMessage />
         </div>
-        <div className="flex justify-center">
-          <ProfileImg/>
+        <div className="pt-10 w-96">
+          <Download />
         </div>
+        {/* <div className="hidden lg:flex justify-center">
+          <ProfileImg />
+        </div> */}
       </div>
-
+      <div>
+      <div className="hidden lg:flex pb-10">
+        <ProfileImg />
+      </div>
+      </div>
+    </div>
   );
 };
 

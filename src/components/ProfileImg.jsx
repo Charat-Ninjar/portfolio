@@ -4,7 +4,7 @@ const ProfileImg = () => {
     const [isHovered, setIsHovered] = useState(false);
     return(
         <div
-          className="w-1/2 mt-40 ml-40"
+          className="mt-40 ml-40"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >

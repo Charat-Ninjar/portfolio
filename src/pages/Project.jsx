@@ -9,12 +9,12 @@ const Project = () => {
     <div className="">
       <ProjectData>
       <Element name="projects" className="scroll-container">
-        <div id="projects" className="flex text-7xl text-white h-[100px]  font-semibold border-b-4 mt-40 items-center mx-12 ">
-          <div className="text-glow hover:text-glow px-2">Projects </div>
+        <div className="flex text-7xl text-white h-fit  font-semibold border-b-4 pt-2 items-center mx-2 ">
+          <div className="text-glow hover:text-glow ">Projects </div>
         </div>
         <ProjectCard></ProjectCard>
-        <div id="projects" className="flex text-4xl text-white h-[100px]  font-semibold border-b-4 mt-40 items-center mx-10 ">
-          <div className="text-glow hover:text-glow px-2">Mini Projects </div>
+        <div id="projects" className="flex text-4xl text-white h-fit font-semibold border-b-4 pt-2 items-center mx-2 ">
+          <div className="text-glow hover:text-glow mt-10">Mini Projects </div>
         </div>
         <MiniProjectCard/>
         </Element>

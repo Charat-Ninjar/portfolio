@@ -5,11 +5,11 @@ const MiniProjectCard = () => {
   const { miniProjectList } = useData();
 
   return (
-    <div className="flex gap-10 mt-12 px-12">
+    <div className="flex flex-col lg:flex-row gap-10 mt-12 px-12 space-y-6 lg:space-y-0 lg:items-center">
       {miniProjectList.map((project, index) => (
         <div
           key={index}
-          className="card w-96 bg-base-100 shadow-xl image-full z-0 hover:scale-110"
+          className="card h-96  lg:w-96 bg-base-100 shadow-xl image-full z-0 hover:scale-110"
         >
           <figure>
             <img
