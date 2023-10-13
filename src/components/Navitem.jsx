@@ -10,11 +10,11 @@ const Navitem = () => {
         </label>
         <ul
           tabIndex={0}
-          className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 flex-col  justify-start items-end align-middle text-black"
+          className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-white bg-black rounded-box w-52 flex-col  justify-start items-end align-middle"
         >
           <li>
             <a href="#profile">
-              <div className="text-2xl h-fit  font-semibold text-glow hover:text-glow w-64 hover:scale-105">
+              <div className="text-2xl h-fit font-semibold text-glow hover:text-glow w-64 hover:scale-105">
                 PROFILE
               </div>
             </a>
