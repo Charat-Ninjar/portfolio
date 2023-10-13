@@ -2,13 +2,12 @@ import React from "react";
 import Layout from "../Layout";
 import ContactInfo from "../components/ContactInfo";
 
-
 const Contact = () => {
-    return(
+  return (
+    <div>
+      <ContactInfo />
+    </div>
+  );
+};
 
-            <ContactInfo/>
-
-    )
-}
-
-export default Contact
+export default Contact;
