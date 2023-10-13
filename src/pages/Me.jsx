@@ -12,7 +12,7 @@ const Me = () => {
         <div className="flex items-center">
           <WelcomeMessage />
         </div>
-        <div className="pt-10 w-96">
+        <div className="pt-10 w-full">
           <Download />
         </div>
         {/* <div className="hidden lg:flex justify-center">

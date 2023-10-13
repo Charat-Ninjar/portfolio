@@ -6,10 +6,10 @@ import { Element } from "react-scroll";
 import MiniProjectCard from "../components/MiniprojectCard";
 const Project = () => {
   return (
-    <div className="">
+    <div className="pl-8">
       <ProjectData>
       <Element name="projects" className="scroll-container">
-        <div className="flex text-7xl text-white h-fit  font-semibold border-b-4 pt-2 items-center mx-2 ">
+        <div className="flex text-7xl  text-white h-fit  font-semibold border-b-4 pt-2 items-center mx-2 ">
           <div className="text-glow hover:text-glow ">Projects </div>
         </div>
         <ProjectCard></ProjectCard>

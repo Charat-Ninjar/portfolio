@@ -12,13 +12,13 @@ function App() {
       <div className="h-16 bg-slate-600">
       <Navbar/>
       </div>
-      <div id="profile" className="h-fit bg-slate-400 pt-10">
+      <div id="profile" className="h-fit bg-slate-700 pt-10">
       <Me/>
       </div>
-      <div id="projects" className="h-fit bg-slate-400 lg:pt-24 pt-40">
+      <div id="projects" className="h-fit bg-slate-700 lg:pt-24 pt-40">
       <Project/>
       </div>
-      <div className="h-fit bg-slate-400">
+      <div className="h-fit bg-slate-700">
       <ContactInfo/>
       </div>
     </div>

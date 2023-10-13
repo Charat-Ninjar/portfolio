@@ -6,9 +6,9 @@ const ContactInfo = () => {
     <div id="contact" className=" pt-4 scroll-container flex-col align-middle">
       <div
         id="projects"
-        className="flex text-4xl text-white h-[100px]  font-semibold border-b-4 mt-40 items-center mx-10 "
+        className="flex text-4xl text-white h-fit font-semibold border-b-4 mt-40 items-center mx-10 "
       >
-        <div className="text-glow hover:text-glow px-2">Contact</div>
+        <div className="text-glow hover:text-glow ">Contact</div>
       </div>
       <div className="flex-col justify-start gap-9 ml-10 mt-10 pb-10 pl-4">
         <div className="text-white text-1xl ">Email: Charatvc@gmail.com</div>
