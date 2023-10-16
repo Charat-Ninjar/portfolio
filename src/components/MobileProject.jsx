@@ -5,6 +5,7 @@ const MobileProject = () => {
   const { miniProjectList } = useData();
   const [imgIndex, setImgIndex] = useState(0);
   console.log(miniProjectList);
+
   const goToPrevious = () => {
     setImgIndex((prevIndex) =>
       prevIndex === 0 ? miniProjectList.length - 1 : prevIndex - 1
@@ -18,7 +19,7 @@ const MobileProject = () => {
   };
 
   return (
-    <div className="px-8 mt-8 flex lg:hidden">
+    <div className="px-8 mt-8 flex lg:hidden" style={{height:"500px"}}>
       <div
         className="card w-full h-full rounded-box relative bg-base-100 shadow-xl image-full z-0"
       >
@@ -28,7 +29,7 @@ const MobileProject = () => {
           alt={`Slide ${imgIndex + 1}`}
         />
 
-        <div className="absolute flex justify-between items-center w-full h-full px-3 z-20 rounded-box">
+        <div className="absolute flex justify-between items-center w-full h-full px-3 z-40 rounded-box">
           <button className="btn btn-circle left-0" onClick={goToPrevious}>
             ❮
           </button>
