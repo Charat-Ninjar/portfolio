@@ -5,10 +5,10 @@ const ContactIcon = () => {
     <div className="hidden lg:flex gap-10">
       <a href="https://github.com/Charat-Ninjar" target="_blank" rel="..">
         <div className="flex items-center hover:text-glow rounded-full h-10 w-10 icon hover:scale-110">
-          <div className="h-full">
+          <div className="h-full bg-black rounded-full broder-white border-r-stone-950">
             <img
               src="/github-light.svg"
-              className="h-full w-full object-cover rounded-full"
+              className="h-full w-full object-cover rounded-full fill-black"
               alt="GitHub Logo"
             />
           </div>

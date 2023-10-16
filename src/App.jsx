@@ -10,16 +10,20 @@ function App() {
   return (
     <div className="h-screen bg-neutral-900">
       <div className="h-16 bg-slate-600">
-      <Navbar/>
+        <Navbar />
       </div>
-      <div id="profile" className="h-fit bg-slate-700 pt-10">
-      <Me/>
+      <div className="bg-slate-900">
+
+      
+      <div id="profile" className="h-fit pt-10">
+        <Me />
       </div>
-      <div id="projects" className="h-fit bg-slate-700 lg:pt-24 pt-40">
-      <Project/>
+      <div id="projects" className="h-fit  lg:pt-24 pt-40">
+        <Project />
       </div>
-      <div className="h-fit bg-slate-700">
-      <ContactInfo/>
+      <div className="h-fit ">
+        <ContactInfo />
+      </div>
       </div>
     </div>
   );

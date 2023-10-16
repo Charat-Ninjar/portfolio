@@ -10,7 +10,7 @@ const ContactInfo = () => {
       >
         <div className="text-glow hover:text-glow ">Contact</div>
       </div>
-      <div className="flex-col justify-start gap-9 ml-10 mt-10 pb-10 pl-4">
+      <div className="flex-col justify-start gap-9 mt-10 pb-10 pl-4">
         <div className="text-white text-1xl ">Email: Charatvc@gmail.com</div>
         <div className="text-white text-1xl">
           Linkedin: www.linkedin.com/in/charat-p
@@ -20,7 +20,7 @@ const ContactInfo = () => {
         </div>
       </div>
       <div>
-      <div className="flex lg:hidden gap-10 ml-14 pb-10">
+      <div className="flex lg:hidden gap-10 ml-5 pb-10">
       <a href="https://github.com/Charat-Ninjar" target="_blank" rel="..">
         <div className="flex items-center hover:text-glow rounded-full h-10 w-10 icon hover:scale-110">
           <div className="h-full">
