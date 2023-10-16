@@ -5,6 +5,8 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Project from './pages/Project.jsx'
 import Contact from './pages/Contact.jsx'
+import ProjectData from './components/ProjectData.jsx'
+import MobileProject from './components/MobileProject.jsx'
 const router = createBrowserRouter([
   {
     path:"/",
@@ -17,6 +19,14 @@ const router = createBrowserRouter([
   {
     path:"/contact",
     element: <Contact/>
+  },
+  {
+    path:'/MobileProject',
+    element: (
+      <ProjectData>
+        <MobileProject/>
+      </ProjectData>
+    )
   }
   
 ])

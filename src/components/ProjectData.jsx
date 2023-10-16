@@ -26,6 +26,13 @@ const ProjectData = ({ children }) => {
           "This mini-game project utilizes the fundamentals of JavaScript.",
           url: "https://replit.com/@CharatPrakobkit/09Ninjar-find-your-hat"
       },
+      {
+        name: "Simple Webpage",
+        project: "/reactsimplepage.png",
+        description:
+          "a simple webpage using the fundamental building blocks of React, harnessing the power of React Hooks, and implementing routing for seamless navigation.",
+          url: "https://ninjar-react-assignment.vercel.app/"
+      },
     ])
   return (
     <>
