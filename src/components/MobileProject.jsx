@@ -19,7 +19,7 @@ const MobileProject = () => {
   };
 
   return (
-    <div className="px-8 mt-8 flex lg:hidden" style={{height:"500px"}}>
+    <div className="px-8 mt-8 flex lg:hidden" style={{height:"600px"}}>
       <div
         className="card w-full h-full rounded-box relative bg-base-100 shadow-xl image-full z-0"
       >
@@ -49,7 +49,7 @@ const MobileProject = () => {
               href={miniProjectList[imgIndex].url}
               target="_blank"
               rel="..">
-              <button className="btn bg-yellow-400 hover:bg-yellow-200">Visit</button>
+              <button className="btn bg-yellow-400 hover:bg-yellow-200 text-blue-800">Visit</button>
               </a>
             </div>
       </div>

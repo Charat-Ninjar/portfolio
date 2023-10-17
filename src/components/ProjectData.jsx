@@ -21,7 +21,7 @@ const ProjectData = ({ children }) => {
       },
       {
         name: "finding hat",
-        project: "/findinghat.png",
+        project: "/findinghat2.png",
         description:
           "This mini-game project utilizes the fundamentals of JavaScript.",
           url: "https://replit.com/@CharatPrakobkit/09Ninjar-find-your-hat"

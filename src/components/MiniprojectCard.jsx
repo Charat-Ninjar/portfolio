@@ -25,7 +25,7 @@ const MiniProjectCard = () => {
               href={project.url}
               target="_blank"
               rel="..">
-              <button className="btn bg-yellow-400 hover:bg-yellow-200">Visit</button>
+              <button className="btn bg-yellow-400 hover:bg-yellow-200 text-blue-800">Visit</button>
               </a>
             </div>
           </div>
