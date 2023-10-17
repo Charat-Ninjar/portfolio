@@ -24,7 +24,7 @@ const ProjectCard = () => {
                 <button className="btn bg-yellow-400 hover:bg-yellow-200 flex justify-end">
                   Visit
                 </button>
-                <div class="tooltip flex justify-end w-fit">Sorry this project is inprogress </div>
+                <div class="absolute tooltip w-fit ">Sorry, temporarily closed.</div>
               </div>
             </div>
           </div>
