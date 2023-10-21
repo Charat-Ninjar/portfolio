@@ -3,7 +3,7 @@ import React from "react";
 const Download = () => {
   return (
     <a
-      href="https://drive.google.com/file/d/10E3g9buCEIWRWNAsVEbN2PPR__bGhPbH/view?usp=sharing"
+      href="https://drive.google.com/file/d/1b3y_UJcJKp3ksioQVFPnXNgFIV6lKi5h/view?usp=share_link"
       target="_blank"
       rel="noopener noreferrer"
     >
