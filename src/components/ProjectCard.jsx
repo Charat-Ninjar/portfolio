@@ -21,10 +21,15 @@ const ProjectCard = () => {
             <p>{project.description}</p>
             <div className="card-actions justify-end">
               <div className="flex justify-end hoverable-item">
+              <a 
+              href={project.url}
+              target="_blank"
+              rel="..">
                 <button className="btn bg-yellow-400 hover:bg-yellow-200 flex justify-end">
                   Visit
                 </button>
-                <div class="absolute tooltip w-fit ">Sorry, temporarily closed.</div>
+                </a>
+                {/* <div class="absolute tooltip w-fit ">Sorry, temporarily closed.</div> */}
               </div>
             </div>
           </div>
