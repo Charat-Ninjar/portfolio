@@ -8,7 +8,7 @@ const ProjectData = ({ children }) => {
       project: "/keepfit.png",
       description:
         "web application designed to help you monitor and analyze your daily activities, empowering you to make informed decisions for a more productive and fulfilling day.",
-      url: "https://keepfit-react.vercel.app/",
+      url: "https://keepfit-demo.vercel.app/",
     },
   ]);
 
