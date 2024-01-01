@@ -3,7 +3,7 @@ import React from "react";
 const Download = () => {
   return (
     <a
-      href="https://drive.google.com/file/d/1b3y_UJcJKp3ksioQVFPnXNgFIV6lKi5h/view?usp=share_link"
+      href="https://www.canva.com/design/DAFyuD2Ij3o/w01pgaxK1Z1tuvjNNWBmcg/edit?utm_content=DAFyuD2Ij3o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
       target="_blank"
       rel="noopener noreferrer"
     >

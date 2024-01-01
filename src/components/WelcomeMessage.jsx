@@ -11,7 +11,7 @@ const WelcomeMessage = () => {
         my name is Ninjar
       </div>
       <div className=" text-xl mt-1">
-        I'm Software Developer Learner At Generation Thailand.
+        I'm (looking for a job as a) Software Developer.
       </div>
     </div>
   );
